@@ -436,14 +436,14 @@
     .acordion label:hover + .memefield{
         height: auto;
         transition: all .55s;
-        transform: scale(1.02);
-        border-bottom: 2px solid #d5e038;
+        transform: scale(1.01);
+        
     }
 
     .memefield:hover{
         height: auto;
         transition: all .55s;
-        transform: scale(1.02);
-        border-bottom: 2px solid #d5e038;
+        transform: scale(1.01);
+    
     }
 }
