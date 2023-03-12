@@ -1,5 +1,4 @@
-@media (min-width: 821px) and (max-width : 1920px){
-    
+@media (min-width: 821px) and (max-width : 1920px) {
     body, html {
       max-width: 100%;
       min-width: 100%;
@@ -87,16 +86,10 @@
             transform: rotate(-45deg);
             }
 
-            .acordion label:hover{                       /*hover*/
-                color: #a77171;
-            }
-
-            .acordion label:hover::after {               /*hover*/
-                display: block;
-            }
             
     .acordion input:checked + label {     /*First label checked*/
         border: none;
+        color: #a77171;
     }
  .img{
     width: 0;
@@ -113,7 +106,7 @@
 }
 
 /*Adaptivity 820px*//*Adaptivity 820px*//*Adaptivity 820px*//*Adaptivity 820px*//*Adaptivity 820px*//*Adaptivity 820px*//*Adaptivity 820px*/
-@media (min-width: 650px) and (max-width : 820px){
+@media (min-width: 650px) and (max-width : 820px) {
     body, html {
       max-width: 100%;
       min-width: 100%;
@@ -155,10 +148,7 @@
         transition: .8s;
     }
 
-    .acordion label:hover {
-        color: #a77171;
-        cursor: pointer;
-    }
+    
 
     .acordion .memefield {
         overflow: hidden;
@@ -205,16 +195,11 @@
             transform: rotate(-45deg);
             }
 
-            .acordion label:hover{                       /*hover*/
-                color: #a77171;
-            }
-
-            .acordion label:hover::after {               /*hover*/
-                display: block;
-            }
+          
             
     .acordion input:checked + label {     /*First label checked*/
         border: none;
+        color: #a77171;
     }
 
 
@@ -269,10 +254,7 @@
         transition: .8s;
     }
 
-    .acordion label:hover {
-        color: #a77171;
-        cursor: pointer;
-    }
+   
 
     .acordion .memefield {
         overflow: hidden;
@@ -319,16 +301,10 @@
             transform: rotate(-45deg);
             }
 
-            .acordion label:hover{                       /*hover*/
-                color: #a77171;
-            }
-
-            .acordion label:hover::after {               /*hover*/
-                display: block;
-            }
             
     .acordion input:checked + label {     /*First label checked*/
         border: none;
+        color: #a77171;
     }
 
 
@@ -342,7 +318,7 @@
 
 
 /*Adaptivity 320px*//*Adaptivity 320px//*Adaptivity 320px*//*Adaptivity 320px*//*Adaptivit 320pxy*//*Adaptivity 320px*//*Adaptivity 320px*/
-@media (min-width: 310px) and (max-width : 484px) {
+@media (min-width: 310px) and (max-width : 485px) {
     body, html {
       max-width: 100%;
       min-width: 100%;
@@ -384,10 +360,7 @@
         transition: .8s;
     }
 
-    .acordion label:hover {
-        color: #a77171;
-        cursor: pointer;
-    }
+   
 
     .acordion .memefield {
         overflow: hidden;
@@ -429,17 +402,10 @@
             transition: transform .35s;
             transform: rotate(-45deg);
             }
-
-            .acordion label:hover{                       /*hover*/
-                color: #a77171;
-            }
-
-            .acordion label:hover::after {               /*hover*/
-                display: block;
-            }
             
     .acordion input:checked + label {     /*First label checked*/
         border: none;
+        color: #a77171;
     }
 
     .acordion input:checked + label + .memefield {  /*mem 2, 3, 4 label checked*/
@@ -447,5 +413,37 @@
         width: 100%;
         transition: all .55s;
         transform: scale(1.05);
+    }
+}
+
+ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ /*Hover*/ 
+@media (hover: hover) {
+    
+    .acordion label:hover{                      
+        border: none;
+        color: #a77171;
+    }
+
+    .acordion label:hover::after {               
+        display: block;
+    }
+
+    .acordion label:hover {
+        cursor: pointer;
+        color: #a77171;
+    }
+
+    .acordion label:hover + .memefield{
+        height: auto;
+        transition: all .55s;
+        transform: scale(1.02);
+        border-bottom: 2px solid #d5e038;
+    }
+
+    .memefield:hover{
+        height: auto;
+        transition: all .55s;
+        transform: scale(1.02);
+        border-bottom: 2px solid #d5e038;
     }
 }
